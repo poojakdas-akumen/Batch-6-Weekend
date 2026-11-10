@@ -1,11 +1,5 @@
 # Storage and Disk Management in Linux (Ubuntu)
  
-A practical guide to inspecting, partitioning, formatting, mounting, and managing storage on Ubuntu. Every section includes commands you can copy and run on a real system.
- 
-> **Heads up:** Disk commands can destroy data. Always double-check device names (e.g., `/dev/sdb` vs `/dev/sda`) before running write operations. Practice on a spare disk, USB stick, or VM.
- 
----
- 
 ## 1. Understanding Linux Storage Basics
  
 In Linux, every storage device is treated as a file under `/dev`.
